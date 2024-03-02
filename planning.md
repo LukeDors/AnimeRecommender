@@ -10,7 +10,10 @@ To begin, I need the data from thousands of users. I am beginning at a couple of
 
 I will format the data as following: Each user/show combination will be a unique row.
 
-example: $user | show | rating$
+
+
+**example**: $user | show | rating$
+
 
 I will be adding additional columns as well to increase the likelihood of a user enjoying a series. These may include the genres, the producing company, or the animation studio.
 
@@ -22,19 +25,26 @@ Next I will create columns for each genre
 
 Finally, I will create train and test sets for my data
 
-## NN version 1
+### NN version 1
 
 execute code as seen in https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/machine_learning/example_recommendation.ipynb and adapt as needed
 
-this will be the primary usage NN. The following 2 will be attempted if time allows
+this will be the primary usage NN
 
-## NN version 2
+### NN version 2
 
-wide and deep as shown by code sample:
-dlrm
+wide and deep / dlrm
 
-## NN version 3
+### NN version 3
 
 graphing NN
 
-## Clustering
+## Step 3 Clustering
+
+The data will be organized with each user being a row, and the columns being various variables to be organized into clusters with. This will be done in 2 ways:
+* columns with binary variables for genres
+* columns for binary variables for different anime
+
+-------
+
+this will then be graphed as a network graph using NetworkX
